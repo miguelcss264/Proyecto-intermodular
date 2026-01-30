@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.bienvenida div{
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F2F5F5;
+}
+
+.bienvenida h1{
+    padding-left: 5%;
+    padding-right: 55%;
+}
+
+.bienvenida p{
+    padding-left: 5%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+
+.bienvenida button{
+    width: 20%;
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.vacio section{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: lightgray;
+}
+
