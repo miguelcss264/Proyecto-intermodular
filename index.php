@@ -13,27 +13,27 @@ session_start();
 </head>
 <body>
 
-  <header>
-    <div>
-      <div>
-        <img src="#" alt="Logo Alta Frecuencia">
-      </div>
-
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Noticias</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
-        </ul>
-      </nav>
-
-      <div>
-        <form>
-          <input type="search" placeholder="Búsqueda">
-        </form>
-      </div>
+<header class="header">
+  <div class="barra-superior"></div>
+  <div class="header-caja">
+    <div class="logo-caja">
+      <img src="logo.png" alt="Logo Alta Frecuencia">
     </div>
-  </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+
+    <form class="buscador" role="search">
+      <label class="solo-lectura" for="q">Búsqueda</label>
+      <input id="q" type="search" placeholder="Busqueda">
+    </form>
+  </div>
+</header>
 
   <main>
     <section class="bienvenida">
