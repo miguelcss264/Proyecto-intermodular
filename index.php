@@ -9,6 +9,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <title>Alta Frecuencia</title>
+  <link rel="stylesheet" href="styles.css"
 </head>
 <body>
 
